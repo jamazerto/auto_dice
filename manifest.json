@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension allows the user to roll dice whenever a a webpage says (xdx + x)",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  	  
+  "background": {
+    "scripts": ["jquery-3.3.1.min.js", "myscript.js"]
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
