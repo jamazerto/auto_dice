@@ -10,7 +10,7 @@
   },
   	  
   "background": {
-    "scripts": ["jquery-3.3.1.min.js", "myscript.js"]
+    "scripts": ["action.js"]
   },
   "permissions": [
     "activeTab"
